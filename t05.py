@@ -1,9 +1,9 @@
 slovo = str(input())
 slovo1 = slovo[::-1]
 if (slovo==slovo1):
-    print('Полиндром')
+    print('Палиндром')
 else:
-    print('Не полиндром')
+    print('Не палиндром')
 
 
 

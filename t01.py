@@ -1,7 +1,9 @@
 def rotate(l):
-    l.insert(0, l.pop(len(l)-1))
+    b = a.copy()
+    b.insert(0, b.pop(len(l)-1))
+    return b
 
 
 a = [1, 2, 3]
 rotate(a)
-print(a)
+print(a, rotate(a))

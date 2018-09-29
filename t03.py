@@ -1,8 +1,8 @@
 a=int(input())
-deliteli=int
+deliteli=[]
 for i in range(-a , a+1):
     if (i!=0) and (a%i==0):
-        deliteli=i
+        deliteli.append(i)
         print(deliteli)
 
 
