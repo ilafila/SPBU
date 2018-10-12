@@ -1,0 +1,65 @@
+При любых значениях n время выполения рекурсивного варианта меньше времени выполнения нерекурсивного
+
+
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     4     11.7 MiB     11.7 MiB   @profile
+     5                             def factorial(a):
+     6     11.7 MiB      0.0 MiB       fac=1
+     7     11.7 MiB      0.0 MiB       if (a==0):
+     8                                     return 1
+     9     11.7 MiB      0.0 MiB       if (type(a) != int) or a<0:
+    10                                     return "ValueError"
+    11     11.7 MiB      0.0 MiB       for i in range(a):
+    12     11.7 MiB      0.0 MiB           fac *=(i+1)
+    13     11.7 MiB      0.0 MiB       return fac
+
+
+0.025702000000000003          факториал 10 при нерекурсивном варианте
+
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    21     11.6 MiB     11.6 MiB   @profile
+    22                             def startRec(b):
+    23     11.6 MiB      0.0 MiB       sys.setrecursionlimit(100000)
+    24     11.6 MiB      0.0 MiB       return factorial_rec(b)
+
+
+0.024396             факториал 10 при рекурсивном варианте
+
+
+
+
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    21     11.5 MiB     11.5 MiB   @profile
+    22                             def startRec(b):
+    23     11.5 MiB      0.0 MiB       sys.setrecursionlimit(100000)
+    24     12.7 MiB      1.1 MiB       return factorial_rec(b)
+
+
+0.03448200000000001      факториал 1000 при рекурсивном варианте
+
+
+
+
+
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     4     11.6 MiB     11.6 MiB   @profile
+     5                             def factorial(a):
+     6     11.6 MiB      0.0 MiB       fac=1
+     7     11.6 MiB      0.0 MiB       if (a==0):
+     8                                     return 1
+     9     11.6 MiB      0.0 MiB       if (type(a) != int) or a<0:
+    10                                     return "ValueError"
+    11     11.6 MiB      0.0 MiB       for i in range(a):
+    12     11.6 MiB      0.0 MiB           fac *=(i+1)
+    13     11.6 MiB      0.0 MiB       return fac
+
+
+0.13442199999999999     факториал 1000 при нерекурсвином варианте
