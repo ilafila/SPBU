@@ -1,4 +1,4 @@
-from caesar_logic import *
+from caesar_logic import encrypt, decrypt
 
 print('Введите операцию e или d')
 variant = str(input())
