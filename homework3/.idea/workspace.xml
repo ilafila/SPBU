@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="328e48aa-2fa2-4ea1-8f54-97eed2289176" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/balls_collide.py" beforeDir="false" afterPath="$PROJECT_DIR$/balls_collide.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/balls_collide_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/balls_collide_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caesar.py" beforeDir="false" afterPath="$PROJECT_DIR$/caesar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/caesar_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/caesar_test.py" afterDir="false" />
-    </list>
+    <list default="true" id="328e48aa-2fa2-4ea1-8f54-97eed2289176" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +12,11 @@
     <session id="1387275754">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
-          <entry key="project.open.time.0" value="13" />
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.0" value="14" />
           <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.4" value="3" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -48,33 +42,14 @@
         </counts>
       </usages-collector>
     </session>
-    <session id="256787411">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.4" value="3" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="53" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="53" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/balls_collide.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="103" lean-forward="true" selection-start-line="6" selection-start-column="103" selection-end-line="6" selection-end-column="103" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -82,10 +57,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/balls_collide_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="15">
+              <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#0#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caesar_logic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="105">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -103,8 +78,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caesar_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
+            <state relative-caret-position="330">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caesar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="41" selection-start-column="41" selection-end-column="41" />
+            <state relative-caret-position="225">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -127,19 +105,16 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/crush_balls.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/caesar_logic.py" />
-        <option value="$PROJECT_DIR$/balls_collide.py" />
         <option value="$PROJECT_DIR$/balls_collide_test.py" />
-        <option value="$PROJECT_DIR$/caesar_test.py" />
+        <option value="$PROJECT_DIR$/balls_collide.py" />
         <option value="$PROJECT_DIR$/caesar.py" />
+        <option value="$PROJECT_DIR$/caesar_test.py" />
+        <option value="$PROJECT_DIR$/caesar_logic.py" />
       </list>
     </option>
   </component>
@@ -148,14 +123,12 @@
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,16 +162,11 @@
               <item name="homework3" type="462c0819:PsiDirectoryNode" />
               <item name="caesar_test.py" type="8704e2dd:PyFileNode" />
             </path>
-            <path>
-              <item name="homework3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework3" type="462c0819:PsiDirectoryNode" />
-              <item name="caesar_test.py" type="8704e2dd:PyFileNode" />
-              <item name="Validator" type="dd8bbb05:PyElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -213,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.caesar_test">
+  <component name="RunManager" selected="Python.caesar">
     <configuration name="balls_collide_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="homework3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -321,11 +289,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.caesar_test" />
-        <item itemvalue="Python.balls_collide_test" />
         <item itemvalue="Python.caesar" />
+        <item itemvalue="Python.caesar_test" />
         <item itemvalue="Python.caesar_logic" />
         <item itemvalue="Python tests.Unittests in caesar_test.py" />
+        <item itemvalue="Python.balls_collide_test" />
       </list>
     </recent_temporary>
   </component>
@@ -389,41 +357,44 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/caesar.py">
+    <entry file="file://$PROJECT_DIR$/balls_collide.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caesar_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caesar_logic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/balls_collide_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="15">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/balls_collide.py">
+    <entry file="file://$PROJECT_DIR$/caesar_logic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="103" lean-forward="true" selection-start-line="6" selection-start-column="103" selection-end-line="6" selection-end-column="103" />
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caesar_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caesar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
