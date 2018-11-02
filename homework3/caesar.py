@@ -1,16 +1,14 @@
-from caesar_logic import *
+from caesar_logic import encrypt, decrypt
 
-print('Введите операцию e или d')
-variant = str(input())
+print('Введите операцию:зашифровать(e) или расшифровать(d)')
+variant = input()
+if (variant != 'e') and (variant != 'd'):
+    raise ValueError('Введите e или d')
+print('Введите ключ')
+key = int(input())
+print('Введите текст')
+answer = input()
 if variant == 'e':
-    print('Введите сдвиг')
-    s = int(input())
-    print('Введиет текст ')
-    t = str(input())
-    print(encrypt(s, t))
-elif variant == 'd':
-    print('Введите сдвиг')
-    s = int(input())
-    print('Введите текст')
-    t = str(input())
-    print(decrypt(s, t))
+    print(encrypt(key, answer))
+else:
+    print(decrypt(key, answer))
