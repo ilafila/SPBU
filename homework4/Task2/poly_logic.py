@@ -1,3 +1,4 @@
+# При построении алгоритма посоветовался с Дмитрием Кривошеем :)
 def diff(text):
     if type(text) != str:
         raise TypeError()
