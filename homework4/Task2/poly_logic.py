@@ -1,27 +1,37 @@
 # При построении алгоритма посоветовался с Дмитрием Кривошеем :)
-def diff(text):
-    if type(text) != str:
+def diff(inp_str):
+    if type(inp_str) != str:
         raise TypeError()
-    pol = text.split()
-    if pol[len(pol) - 1].find("x") == -1:
-        pol = pol[:(len(pol)-2)]
-    for i in range(len(pol)):
-        if pol[i].find("x") != -1:
-            if pol[i].find("^") == -1:
-                pol[i] += "^1"
-            new_pol = pol[i].split("x^")
-            if new_pol[0] == '':
-                a = int(new_pol[1])
-                b = int(new_pol[1]) - 1
+    poly = inp_str.split()
+    if poly[len(poly) - 1].find("x") == -1:
+        poly = poly[:(len(poly)-2)]
+    for x in range(len(poly)):
+        if poly[x].find("x") != -1:
+            if poly[x].find("^") == -1:
+                poly[x] += "^1"
+            pnmb = poly[x].split("x^")
+            if pnmb[0] == '':
+                a = int(pnmb[1])
+                b = int(pnmb[1]) - 1
             else:
-                a = int(new_pol[0]) * int(new_pol[1])
-                b = int(new_pol[1]) - 1
-            if a == -1:
-                pol[i] = "-x^" + str(b)
+                a = int(pnmb[0]) * int(pnmb[1])
+                b = int(pnmb[1]) - 1
+            if b == 1:
+                poly[x] = str(a) + "x"
             elif b == 0:
-                pol[i] = str(a)
-            elif b == 1:
-                pol[i] = str(a) + "x"
+                poly[x] = str(a)
+            elif a == -1:
+                poly[x] = "-x^" + str(b)
             else:
-                pol[i] = str(a) + "x^" + str(b)
-    return " ".join(pol)
+                poly[x] = str(a) + "x^" + str(b)
+        if poly[x].find("-") != -1 and len(poly[x]) > 1 and x > 1:
+            if poly[x-1] == "+":
+                poly[x] = poly[x][1:]
+                poly[x-1] = "-"
+            else:
+                poly[x] = poly[x][1:]
+                poly[x-1] = "+"
+    return " ".join(poly)
+
+asi = input()
+print(diff(asi))
