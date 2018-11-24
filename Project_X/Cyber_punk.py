@@ -5,6 +5,10 @@
 # Файл: cyber_punk.py
 # ----------------------------------------------------
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 377502196e9e480f526621d5e93e15051aab7476
 import os.path
 from pygame import *
 import pygame.time
