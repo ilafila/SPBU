@@ -39,50 +39,23 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1369338271">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task_1.py">
+        <entry file="file://$PROJECT_DIR$/task3/task_3_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_1_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" selection-start-column="35" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_3_tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="99" column="21" lean-forward="true" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+            <state relative-caret-position="568">
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -98,6 +71,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -115,6 +91,7 @@
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -126,40 +103,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="homework5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework5" type="462c0819:PsiDirectoryNode" />
+              <item name="hw5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="homework5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework5" type="462c0819:PsiDirectoryNode" />
-              <item name="task_1.py" type="8704e2dd:PyFileNode" />
+              <item name="hw5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw5" type="462c0819:PsiDirectoryNode" />
+              <item name="task3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="homework5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework5" type="462c0819:PsiDirectoryNode" />
-              <item name="task_2.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="homework5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework5" type="462c0819:PsiDirectoryNode" />
-              <item name="task_3.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="homework5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework5" type="462c0819:PsiDirectoryNode" />
-              <item name="task_3.py" type="8704e2dd:PyFileNode" />
-              <item name="Roman" type="dd8bbb05:PyElementNode" />
-            </path>
-            <path>
-              <item name="homework5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework5" type="462c0819:PsiDirectoryNode" />
+              <item name="hw5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw5" type="462c0819:PsiDirectoryNode" />
+              <item name="task3" type="462c0819:PsiDirectoryNode" />
               <item name="task_3_tests.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="homework5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework5" type="462c0819:PsiDirectoryNode" />
-              <item name="task_3_tests.py" type="8704e2dd:PyFileNode" />
-              <item name="Validator" type="dd8bbb05:PyElementNode" />
             </path>
           </expand>
           <select />
@@ -179,49 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.task_2">
-    <configuration name="task_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="homework5" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="task_1_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="homework5" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_1_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.task_3_tests (1)">
     <configuration name="task_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="homework5" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,6 +178,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task_3_tests (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="homework5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task3/task_3_tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="task_3_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="homework5" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,20 +220,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in task_3_tests.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="homework5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/task3/task_3_tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.task_1" />
-      <item itemvalue="Python.task_1_2" />
       <item itemvalue="Python.task_2" />
       <item itemvalue="Python.task_3" />
       <item itemvalue="Python.task_3_tests" />
+      <item itemvalue="Python.task_3_tests (1)" />
+      <item itemvalue="Python tests.pytest in task_3_tests.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.task_2" />
+        <item itemvalue="Python.task_3_tests (1)" />
         <item itemvalue="Python.task_3_tests" />
+        <item itemvalue="Python tests.pytest in task_3_tests.py" />
+        <item itemvalue="Python.task_2" />
         <item itemvalue="Python.task_3" />
-        <item itemvalue="Python.task_1_2" />
-        <item itemvalue="Python.task_1" />
       </list>
     </recent_temporary>
   </component>
@@ -314,6 +264,11 @@
       <updated>1543090297485</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_task_3_tests_py - 2018.11.24 at 23h 34m 01s.xml">
+      <configuration name="pytest in task_3_tests.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -342,41 +297,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task_3_tests.py">
+    <entry file="file://$PROJECT_DIR$/task_3_tests.py" />
+    <entry file="file://$PROJECT_DIR$/task_3.py" />
+    <entry file="file://$PROJECT_DIR$/task_2.py" />
+    <entry file="file://$PROJECT_DIR$/task_1_2.py" />
+    <entry file="file://$PROJECT_DIR$/task_1.py" />
+    <entry file="file://$PROJECT_DIR$/task3/task_3_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="99" column="21" lean-forward="true" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+        <state relative-caret-position="568">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task_1_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
