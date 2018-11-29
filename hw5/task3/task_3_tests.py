@@ -13,6 +13,15 @@ class Validator(TestCase):
         with self.assertRaises(ValueError):
             Roman(2500) - Roman(10)
 
+        with self.assertRaises(ValueError):
+            Roman(0)
+
+        with self.assertRaises(ValueError):
+            Roman(1) - Roman(1)
+
+        with self.assertRaises(ValueError):
+            Roman(-1)
+
     def test1(self):
         self.assertEqual(Roman(34) + Roman(1965), Roman(1999))
 

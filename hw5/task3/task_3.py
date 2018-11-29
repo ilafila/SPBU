@@ -1,7 +1,7 @@
 # Посоветовался с Алексеем Ковгаром
 class Roman:
     def __init__(self, num):
-        if num > 1999:
+        if num < 1 or num > 1999:
             raise ValueError
         self.num = num
         self.rom_num = self.rom()
