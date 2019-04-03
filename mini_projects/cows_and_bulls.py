@@ -34,7 +34,6 @@ def is_game_over(secret_number, guess):
 
 print('Я загадал число')
 sec = get_secret_number(4)
-print(sec)
 print('Введите число')
 word = input()
 
