@@ -11,11 +11,6 @@ public class BinaryTest {
          }catch (Exception e){
              throw new IllegalArgumentException("Введите целое не отрицательное число");
          }
-
-        if (value < 0){
-            throw new ArithmeticException("Число не должно быть отрицательным");
-        }
-
         Binary result = new Binary(value);
         System.out.println("Ваше число в двоичной системе:" + result.toBinary());
     }

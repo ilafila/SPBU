@@ -16,7 +16,7 @@ package ru.spbu.apmath.prog.hw1.task2;
         return name;
     }
 
-     public double getSalary_per_hour() {
+     public double getSalaryPH(){
          return salary_per_hour;
      }
 
@@ -35,7 +35,7 @@ package ru.spbu.apmath.prog.hw1.task2;
              throw new IllegalStateException();
          }
          if (hours > norm_work_time && hours < max_max_time){
-             return hours*1.5d*salary_per_hour;
+             return (salary_per_hour*norm_work_time)+(hours - norm_work_time)*1.5d*salary_per_hour;
          }
         return hours*salary_per_hour;
      }

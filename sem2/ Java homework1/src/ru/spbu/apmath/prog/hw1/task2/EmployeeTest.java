@@ -22,11 +22,11 @@ public class EmployeeTest {
 
         for(Employee employee:staff){
             try{
-                System.out.println(employee.getName() + " " + employee.getSalary_per_hour() + " " +
+                System.out.println(employee.getName() + " " + employee.getSalaryPH() + " " +
                         employee.getHours() +  " " + employee.getSalary());
 
             }catch (IllegalStateException e){
-                System.out.println(employee.getName() + " " + employee.getSalary_per_hour() + " "
+                System.out.println(employee.getName() + " " + employee.getSalaryPH() + " "
                         + employee.getHours() +  " " + "Ошибка!");
             }
 

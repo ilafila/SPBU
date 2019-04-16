@@ -1,6 +1,6 @@
 package ru.spbu.apmath.prog.hw1.task1;
 
-public class Binary {
+  class Binary {
     private int number;
 
     public Binary(int number){
@@ -8,13 +8,16 @@ public class Binary {
     }
 
     public String toBinary(){
+        if (number < 0)
+            throw new ArithmeticException("Число не должно быть отрицательным");
+        int copy = number;
         StringBuilder answer = new StringBuilder();
-        while (number > 0){
-            if (number % 2 == 0)
+        while (copy > 0){
+            if (copy % 2 == 0)
                 answer.append(0);
             else
                 answer.append(1);
-            number = number / 2;
+            copy = copy / 2;
         }
         String str = answer.toString();
         String result = "";
