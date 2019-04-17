@@ -6,8 +6,8 @@ import java.util.List;
 public class RotateArr {
     public  static List<Integer> rotate(List<Integer> array){
         if (array.isEmpty()){
-            List<Integer> empty_list = new ArrayList<>();
-            return empty_list;
+            List<Integer> empty_lst = new ArrayList<>();
+            return empty_lst;
         }
 
         List<Integer> copy_array = new ArrayList<>();
