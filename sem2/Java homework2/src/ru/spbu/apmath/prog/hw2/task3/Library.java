@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Library {
     private String address;
-    List<Book> books = new ArrayList<>();
+    private List<Book> books = new ArrayList<>();
 
 
     public Library(String address) {
@@ -14,7 +14,7 @@ public class Library {
 
 
     public void addBook(Book book) {
-        if (books.contains(book)) {
+        if (findBook(book.getTitle()) != null) {
             System.out.println("Такая книга уже есть");
         } else {
             books.add(book);
@@ -27,7 +27,7 @@ public class Library {
     }
 
     public void borrowBook(String title) {
-        if (findBook(title) != null) {
+        if (findBook(title)!= null) {
             if (!findBook(title).isBorrowed()) {
                 findBook(title).borrowed();
                 System.out.println("Книга успешно взята");
@@ -77,7 +77,6 @@ public class Library {
         }
         return out;
     }
-
 
 
     public static void printOpeningHours() {
